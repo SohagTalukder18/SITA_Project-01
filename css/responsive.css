@@ -1,0 +1,27 @@
+
+/* --------Mobile---------- */
+@media screen and (max-width:575px) {
+    /* .menu{
+        display: none;
+    }
+    .hero{
+       flex-direction: column;
+    }
+    .hero-text{
+        max-width: 100%;
+    }
+    .hero-text h6{
+        font-size: 16px;
+        color: #433a39;
+        letter-spacing: 1px;
+    } */
+   
+   
+}
+
+/* -----------tablet------ */
+@media screen and (min-width:576px) and (max-width:991){
+     /* .Button-1{
+        display: block;
+    } */
+}
