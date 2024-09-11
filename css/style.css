@@ -28,6 +28,9 @@ body {
     background-color: var(--btn-color);
     color: var(--white);
 }
+.Button-center{
+    text-align: center;
+}
 .description{
     font-size: 15px;
     color: #292F36;
@@ -70,10 +73,7 @@ body {
 }
 
 /* -----------Hero Section------- */
-.hero-section{
-    /* background-image: url(../img/Rectangle-108.png); */
-    
-}
+
 .hero{
     margin-left: 120px;
     padding-bottom: 50px;
@@ -276,4 +276,69 @@ body {
     position: absolute;
     top: 5px;
     left: -39px;
+}
+
+/* ------------Our Services------------------ */
+#services-ssection{
+    padding-block: 50px;
+}
+.services-title{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    color: #292F36;
+    padding: 15px;
+}
+.break{
+    display: block;
+}
+.services-description{
+    text-align: center;
+    font-size: 15px;
+    color: #292F36;
+    padding: 15px;
+}
+.services-card-wrapper{
+    padding-block: 50px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-items: center;
+    gap: 30px;
+    
+  
+}
+
+
+.services-card{
+    max-width: 350px;
+    padding: 30px 10px;
+    box-shadow: 0 0 10px gray;
+    border-radius: 15px;
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    transition: 0.5s;
+}
+
+.services-card:hover {
+    background-color: #6846FF; 
+    color: white; 
+}
+
+.services-card:hover .services-card-title,
+.services-card:hover .services-card-description {
+    color: white; 
+}
+
+.services-card-title{
+    font-size: 22px;
+    font-weight: 600;
+    color: #6846FF;
+}
+.services-card-description{
+    font-size: 13px;
+    font-weight: 500;
+    color: #292F36;
+    padding-block: 10px;
+
 }

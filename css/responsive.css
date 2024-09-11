@@ -118,6 +118,19 @@
         font-size: 25px;
 
     }
+    /* ----------Our Services-------- */
+
+    .break{
+        display: inline;
+    }
+    .services-card-wrapper{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .services-card{
+        grid-column: 1 / -1; 
+        justify-self: center; 
+     
+    }
 }
 
 /* -----------tablet------ */
@@ -178,5 +191,16 @@
         background-position-x: 120px;
         background-position-y: 75px;
         background-size: 300px 350px;
+    }
+    .services-card-wrapper{
+        grid-template-columns: repeat(2,1fr);
+        
+    }
+   
+}
+@media screen and (min-width:992px){
+    .last-card {
+        grid-column: 1 / -1; 
+        justify-self: center; 
     }
 }
