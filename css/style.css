@@ -132,60 +132,13 @@ body {
 .hero-image{
     max-width: 700px;
     height: 580px;
-    background-color: #331DFF;
-    border-radius: 0px 0px 0px 50%;
-}
-.image-wrapper{
-    padding: 80px 0 0px 150px;
-}
-.image-wrapper img{
-    width: 100%;
-    height: 500px;
     
 }
-.phone-card{
-    width: 180px;
-    height: 70px;
-    display: flex;
-    gap: 25px;
-    background-color: #fff;
-    align-items: center;
-    box-shadow: 0 0 10px #0b0b0b;
-}
-.phone-card-1{
-   position: absolute;
-   top: 220px;
-  right: 295px;
-}
-.phone-card-2{
-   position: absolute;
-   bottom: 148px;
-   right: 290px;
-}
-.phone-card-3{
-   position: absolute;
-   bottom: 160px;
-   right: 35px
-}
-.phone-card-img {
-    width: 70px;
-    height: 50px;
-}
-.phone-card-img img{
-    width: 100%;
+.hero-image img{
+    max-width: 100%;
     height: 100%;
-}
-.phone-card-text{
-    padding: 5px;
-}
-.phone-card-text h5{
-    color: #403f3f;
-    font-size: 14px;
-    padding-bottom: 5px;
-}
-.phone-card-text p{
-    color: #131111;
-    font-size: 14px;  
+    
+   
 }
 
 /* -------------Most User Section--------- */
@@ -211,10 +164,10 @@ body {
     padding: 50px;
     background-image: url(../img/Ellipse-64.png);
     /* background-position: center; */
-    background-position-x: 147px;
-    background-position-y: 57px;
-    background-repeat: no-repeat;
-    background-size: 400px 500px;
+    background-position-x: 97%;
+  background-position-y: 68%;
+  background-repeat: no-repeat;
+  background-size: 70% 70%;
 }
 .user-image{
     max-width: 500px;
@@ -300,6 +253,7 @@ body {
 }
 .services-card-wrapper{
     padding-block: 50px;
+    padding-inline: 15px;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     justify-items: center;
@@ -341,4 +295,161 @@ body {
     color: #292F36;
     padding-block: 10px;
 
+}
+/* ---------online payment--------- */
+#online-payment{
+    padding-block: 50px;
+}
+.online-payment-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.online-payment-text{
+    padding: 15px;
+    max-width: 60%;
+}
+.online-payment-title{
+    font-size: 40px;
+    font-weight: 700;
+    color: #292F36;
+}
+.payment-description{
+    padding-block: 15px;
+}
+.partner-card{
+    max-width: 400px;
+    padding-top: 30px;
+    display: flex;
+    align-items: self-start;
+    gap: 20px;
+}
+.partner-icon{
+    font-size: 25px;
+    color: white;
+    background-color: #331DFF;
+    padding: 10px;
+    border-radius: 50%;
+}
+.trusted-partner{
+    font-size: 25px;
+    background-color: white;
+    color: #331DFF;
+    padding: 10px;
+    border-radius: 50%;
+    box-shadow: 0 0 5px gray;
+}
+.partner-text h3{
+    font-size: 20px;
+    color: #292F36;
+}
+.partner-text p{
+    font-size: 13px;
+    color: #292F36;
+    padding-block: 15px;
+}
+.partner-image{
+    width: 90px;
+    background-color: white;
+    border-radius: 50%;
+    padding: 10px;
+    box-shadow: 0 0 5px gray;
+}
+
+.partner-image img{
+    width: 100%;
+}
+.online-payment-image{
+    max-width: 40%;
+    padding: 15px;
+}
+.pi-2{
+    margin-top: -290px;
+    margin-left: -105px;
+}
+.pi-2 img{
+    border: 7px solid white;
+}
+.client-number{
+    max-width: 250px;
+    height: 250px;
+    background-color: #6846FF;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -362px;
+    margin-left: 143px;
+    color: white;
+}
+.client-number h5{
+  font-size: 25px;
+}
+
+/* --------------Support Integrations.------------- */
+
+#support-section{
+    margin-top: 80px;
+    padding-block: 30px;
+}
+.support-title{
+    font-size: 35px;
+    color: #292F36;
+    text-align: center;
+    padding: 30px 15px;
+}
+.media-wrapper{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-items: center;
+}
+.media{
+    width: 250px;
+    height: 90px;
+    background-color: red;
+    
+    border-radius: 9px;
+    background-color: #f0f0f0a6;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+.media:hover{
+    box-shadow: 3px 3px 5px black;
+}
+.media img{
+    width: 150px;
+    height: 50px;
+    
+    
+}
+
+/* --------------Smart payment------------- */
+
+
+.smart-payment-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+.smart-payment-image{
+    max-width: 50%;
+}
+.smart-payment-image img{
+    width: 100%;
+}
+.smart-payment-title{
+    font-size: 35px;
+    font-weight: 700;
+    color: #292F36;
+}
+.smart-description{
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.smart-payment-text{
+    max-width: 50%;
 }
