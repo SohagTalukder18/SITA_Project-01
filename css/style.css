@@ -433,7 +433,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px;
+    padding: 15px 15px 0 15px;
 }
 .smart-payment-image{
     max-width: 50%;
@@ -452,4 +452,48 @@ body {
 }
 .smart-payment-text{
     max-width: 50%;
+    padding-bottom: 30px;
+}
+/* ----------footer------------ */
+#footer{
+    background-color: #6846FF;
+    padding-block: 100px;
+}
+.footer-wrapper{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 30px;
+    
+}
+
+.footer-logo-contant{
+    max-width: 300px;
+   
+}
+.footer-description{
+    font-size: 13px;
+    color: white;
+    font-weight: 400;
+    padding-top: 25px;
+}
+
+
+.footer-link h5{
+    font-size: 20px;
+    padding-bottom: 35px;
+    color: white;
+}
+.footer-link ul{
+   list-style: none;
+   
+}
+.footer-link ul li{
+   padding: 5px;
+}
+.footer-link ul li a{ 
+   color: white;
+   font-size: 13px;
+   text-decoration: none;
+   display: flex;
+   gap: 10px;
 }
